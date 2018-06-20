@@ -89,6 +89,8 @@ obj-$(CONFIG_SENSORS_YL_HALL)		+= coolpad_hall.o
 obj-$(CONFIG_SENSORS_YL_PARAMS)		+= yl_sensor_params.o
 
 obj-$(CONFIG_SENSORS_BMA2X2)	+= bma2x2.o
+obj-$(CONFIG_SENSORS_LTR559)	+= ltr559.o 
+obj-$(CONFIG_SENSORS_LSM6DS0)	+= lsm6ds0.o 
 obj-$(CONFIG_SENSORS_LTR553)	+= ltr553.o
 obj-$(CONFIG_SENSORS_LTR559)	+= ltr559-lc.o
 
